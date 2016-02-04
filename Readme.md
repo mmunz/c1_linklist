@@ -9,7 +9,7 @@ Each link is stored as a database record and can have:
 * image
 * categories (using TYPO3 categories)
 
-The page is rendered using fluid contents. All links from all categories are
+The page is rendered using fluid templates. All links from all categories are
 shown by default and can be filtered using javascript.
 
 ## Installation
