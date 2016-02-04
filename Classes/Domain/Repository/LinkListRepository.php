@@ -1,5 +1,5 @@
 <?php
-namespace C1\Linklist\Domain\Repository;
+namespace C1\C1Linklist\Domain\Repository;
 
 /***************************************************************
  *
@@ -40,7 +40,7 @@ class LinkListRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 
     public function getFileReferences($record_id) {
         $fileRepository = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Resource\\FileRepository');
-        $fileObjects = $fileRepository->findByRelation('tx_linklist_domain_model_linklist', 'image', $record_id);
+        $fileObjects = $fileRepository->findByRelation('tx_c1linklist_domain_model_linklist', 'image', $record_id);
         return $fileObjects;
     }
 }

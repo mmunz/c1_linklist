@@ -1,7 +1,7 @@
 #
-# Table structure for table 'tx_linklist_domain_model_linklist'
+# Table structure for table 'tx_c1linklist_domain_model_linklist'
 #
-CREATE TABLE tx_linklist_domain_model_linklist (
+CREATE TABLE tx_c1linklist_domain_model_linklist (
 
 	uid int(11) NOT NULL auto_increment,
 	pid int(11) DEFAULT '0' NOT NULL,

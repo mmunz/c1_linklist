@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "C1\\LinkList\\": "Classes"
+            "C1\\C1LinkList\\": "Classes"
         }
     }
 }

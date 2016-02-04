@@ -1,5 +1,5 @@
 <?php
-namespace C1\Linklist\Domain\Model;
+namespace C1\C1Linklist\Domain\Model;
 
 /***************************************************************
  *

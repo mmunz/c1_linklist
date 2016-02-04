@@ -4,7 +4,7 @@
 <f:section name="main">
     <f:flashMessages />
     <div class="tx-linklist-filter">
-        <label class="tx-linklist-filter-label"><f:translate key="LLL:EXT:linklist/Resources/Private/Language/locallang.xlf:filter" /></label>
+        <label class="tx-linklist-filter-label"><f:translate key="LLL:EXT:c1_linklist/Resources/Private/Language/locallang.xlf:filter" /></label>
         <f:for each="{categories}" as="category">
             <label for="checkbox-category-{category.uid}">
                 <input type='checkbox' id="checkbox-category-{category.uid}" name="categories" checked value="{category.uid}" />
@@ -31,10 +31,10 @@
                                         <span class="tx-linklist-category-label">
                                             <f:if condition="{link.categories->f:count()}>1">
                                                 <f:then>
-                                                    <f:translate key="LLL:EXT:linklist/Resources/Private/Language/locallang.xlf:categories" />
+                                                    <f:translate key="LLL:EXT:c1_linklist/Resources/Private/Language/locallang.xlf:categories" />
                                                 </f:then>
                                                 <f:else>
-                                                    <f:translate key="LLL:EXT:linklist/Resources/Private/Language/locallang.xlf:category" />
+                                                    <f:translate key="LLL:EXT:c1_linklist/Resources/Private/Language/locallang.xlf:category" />
                                                 </f:else>
                                             </f:if>
                                         </span>
@@ -71,10 +71,10 @@
             </div>
         </f:for>
         <f:if condition="{settings.includeJS}=='1'">
-            <v:asset.script path="{f:uri.resource(path: 'Javascript/linklist.js', extensionName:'linklist')}" name='c1_linklist_js'/>
+            <v:asset.script path="{f:uri.resource(path: 'Javascript/linklist.js', extensionName:'c1_linklist')}" name='c1_linklist_js'/>
         </f:if>
         <f:if condition="{settings.includeCSS}=='1'">
-            <v:asset.style path="{f:uri.resource(path: 'Stylesheets/linklist.css', extensionName:'linklist')}" name='c1_linklist_style'/>
+            <v:asset.style path="{f:uri.resource(path: 'Stylesheets/linklist.css', extensionName:'c1_linklist')}" name='c1_linklist_style'/>
         </f:if>
     </div>
 </f:section>

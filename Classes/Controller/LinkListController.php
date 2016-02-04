@@ -1,6 +1,6 @@
 <?php
 
-namespace C1\Linklist\Controller;
+namespace C1\C1Linklist\Controller;
 
 /* * *************************************************************
  *
@@ -35,7 +35,7 @@ class LinkListController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
     /**
      * linkListRepository
      *
-     * @var \C1\Linklist\Domain\Repository\LinkListRepository
+     * @var \C1\C1Linklist\Domain\Repository\LinkListRepository
      * @inject
      */
     protected $linkListRepository = NULL;

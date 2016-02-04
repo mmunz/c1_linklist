@@ -1,7 +1,7 @@
 <?php
 return array(
 	'ctrl' => array(
-		'title'	=> 'LLL:EXT:linklist/Resources/Private/Language/locallang_db.xlf:tx_linklist_domain_model_linklist',
+		'title'	=> 'LLL:EXT:c1_linklist/Resources/Private/Language/locallang_db.xlf:tx_c1linklist_domain_model_linklist',
 		'label' => 'title',
 		'tstamp' => 'tstamp',
 		'crdate' => 'crdate',
@@ -20,7 +20,7 @@ return array(
 			'endtime' => 'endtime',
 		),
 		'searchFields' => 'title,url,image,description,categories,',
-		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('linklist') . 'Resources/Public/Icons/tx_linklist_domain_model_linklist.gif'
+		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('c1_linklist') . 'Resources/Public/Icons/tx_c1linklist_domain_model_linklist.gif'
 	),
 	'interface' => array(
 		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, title, description, url, image, categories',
@@ -56,8 +56,8 @@ return array(
 				'items' => array(
 					array('', 0),
 				),
-				'foreign_table' => 'tx_linklist_domain_model_linklist',
-				'foreign_table_where' => 'AND tx_linklist_domain_model_linklist.pid=###CURRENT_PID### AND tx_linklist_domain_model_linklist.sys_language_uid IN (-1,0)',
+				'foreign_table' => 'tx_c1linklist_domain_model_linklist',
+				'foreign_table_where' => 'AND tx_c1linklist_domain_model_linklist.pid=###CURRENT_PID### AND tx_c1linklist_domain_model_linklist.sys_language_uid IN (-1,0)',
 			),
 		),
 		'l10n_diffsource' => array(
@@ -117,7 +117,7 @@ return array(
 
 		'title' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:linklist/Resources/Private/Language/locallang_db.xlf:tx_linklist_domain_model_linklist.title',
+			'label' => 'LLL:EXT:c1_linklist/Resources/Private/Language/locallang_db.xlf:tx_c1linklist_domain_model_linklist.title',
 			'config' => array(
 				'type' => 'input',
 				'size' => 255,
@@ -127,7 +127,7 @@ return array(
 		),
         'description' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:linklist/Resources/Private/Language/locallang_db.xlf:tx_linklist_domain_model_linklist.description',
+			'label' => 'LLL:EXT:c1_linklist/Resources/Private/Language/locallang_db.xlf:tx_c1linklist_domain_model_linklist.description',
 			'config' => array(
 				'type' => 'text',
 				'cols' => 60,
@@ -137,7 +137,7 @@ return array(
 		),
 		'url' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:linklist/Resources/Private/Language/locallang_db.xlf:tx_linklist_domain_model_linklist.url',
+			'label' => 'LLL:EXT:c1_linklist/Resources/Private/Language/locallang_db.xlf:tx_c1linklist_domain_model_linklist.url',
 			'config' => array(
 				'type' => 'input',
 				'size' => 255,
@@ -162,7 +162,7 @@ return array(
 		),
 		'image' => array(
 			'exclude' => 1,
-			'label' => 'LLL:EXT:linklist/Resources/Private/Language/locallang_db.xlf:tx_linklist_domain_model_linklist.image',
+			'label' => 'LLL:EXT:c1_linklist/Resources/Private/Language/locallang_db.xlf:tx_c1linklist_domain_model_linklist.image',
 			'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                     'image', [
                         'foreign_types' => $GLOBALS['TCA']['tt_content']['columns']['image']['config']['foreign_types'],
