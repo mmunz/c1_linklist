@@ -28,7 +28,7 @@ $EM_CONF[$_EXTKEY] = array(
 	),
     'autoload' => [
         'psr-4' => [
-            'C1\\C1LinkList\\' => 'Classes',
+            'C1\\C1Linklist\\' => 'Classes',
         ]
     ]
 );
