@@ -1,0 +1,15 @@
+
+plugin.tx_linklist_linklist {
+	view {
+		templateRootPaths.0 = {$plugin.tx_linklist_linklist.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_linklist_linklist.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_linklist_linklist.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_linklist_linklist.persistence.storagePid}
+	}
+    settings {
+        includeJS = {$plugin.tx_linklist_linklist.settings.includeJS}
+        includeCSS = {$plugin.tx_linklist_linklist.settings.includeCSS}
+    }
+}

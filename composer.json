@@ -1,0 +1,25 @@
+{
+    "name": "linklist",
+    "type": "typo3-cms-extension",
+    "version": "0.0.1",
+    "description": "A simple linklist supporting title, description, url, image and category (using TYPO3 categories).",
+    "keywords": [
+        "typo3",
+        "TYPO3 CMS",
+        "linklist"
+    ],
+    "homepage": "",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Manuel Munz",
+            "email": "t3dev@somakoma.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "C1\\LinkList\\": "Classes"
+        }
+    }
+}

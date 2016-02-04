@@ -1,0 +1,74 @@
+.no-js .tx-linklist .tx-linklist-filter {
+  display: none; }
+
+.no-js .tx-linklist .tx-linklist-linkwrapper article footer {
+  display: none; }
+
+.tx-linklist .hidden {
+  display: none; }
+
+.tx-linklist .tx-linklist-filter {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 15px; }
+  .tx-linklist .tx-linklist-filter > label {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-right: 15px;
+    margin-bottom: 0; }
+    .tx-linklist .tx-linklist-filter > label.tx-linklist-filter-label {
+      display: block;
+      padding-left: 0;
+      font-weight: bold;
+      margin-right: 30px;
+      margin-bottom: 5px; }
+  .tx-linklist .tx-linklist-filter input[type="checkbox"] {
+    margin-right: 7.5px;
+    position: absolute;
+    left: 0;
+    top: 4px; }
+
+.tx-linklist .tx-linklist-linkwrapper {
+  display: block;
+  color: #222222;
+  text-decoration: none;
+  background-color: #ffffff;
+  transition: all 0.1s; }
+  .tx-linklist .tx-linklist-linkwrapper:hover {
+    background-color: #f6fbff; }
+  .tx-linklist .tx-linklist-linkwrapper article {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 15px; }
+    .tx-linklist .tx-linklist-linkwrapper article a {
+      display: inline; }
+    .tx-linklist .tx-linklist-linkwrapper article > .row {
+      margin-bottom: 0 !important; }
+    .tx-linklist .tx-linklist-linkwrapper article footer {
+      position: absolute;
+      bottom: -7.5px;
+      left: 15px; }
+      .tx-linklist .tx-linklist-linkwrapper article footer .tx-linklist-category {
+        display: inline-block;
+        color: #111111;
+        margin-right: 7.5px;
+        margin-bottom: 7.5px;
+        background-color: #f6fbff;
+        padding: 7.5px; }
+        .tx-linklist .tx-linklist-linkwrapper article footer .tx-linklist-category:hover {
+          color: #000000;
+          background-color: #ffffff; }
+  .tx-linklist .tx-linklist-linkwrapper .tx-linklist-description {
+    padding-bottom: 45px; }
+  .tx-linklist .tx-linklist-linkwrapper > .row {
+    margin-bottom: 0 !important; }
+
+@media (max-width: 480px) {
+  .tx-linklist .tx-linklist-linkwrapper article footer {
+    margin-bottom: 15px; } }
+
+@media (max-width: 768px) {
+  .tx-linklist .tx-linklist-linkwrapper .tx-linklist-description {
+    padding-bottom: 15px; }
+  .tx-linklist .tx-linklist-linkwrapper article footer {
+    position: static; } }
