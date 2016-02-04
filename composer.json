@@ -1,5 +1,5 @@
 {
-    "name": "c1/linklist",
+    "name": "c1/c1-linklist",
     "type": "typo3-cms-extension",
     "version": "0.0.1",
     "description": "A simple linklist supporting title, description, url, image and category (using TYPO3 categories).",
